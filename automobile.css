@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 90px;
+    color: red;
+    
+  
+    
+
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    transition: 0.8s;
+    font-size: 17px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 2s;
+    font-size: 17px;
+    position: relative;
+    padding-right: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.centent{
+    text-align: center;
+}
+.content h1{
+    font-size: 140px;
+    color: rgb(255, 0, 0);
+    font-weight: 100;
+    transition: 0.5s;
+    text-decoration: none;
+    padding-top: 40px;
+}
+.content h1:hover{
+    -webkit-text-stroke: 1px rgb(255, 0, 0);
+    color: transparent;
+}
+
+.content a{
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    border: 6px solid rgb(255, 255, 255);
+    padding: 34px 200px;
+    border-radius: 100px;
+    margin-top: 90px;
+}
+.back-video{
+    position: absolute;
+    left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+
+  
+}
+@media (min-aspect-ratio: 16/9){
+
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+    @media (max-aspect-ratio: 16/9){
+        .back-video{
+            width: auto;
+            height: 100%;
+        }
+    
+}
+.content img{
+    width: 100%;
+    height: 100px;
+    
+}
+.description{
+    float: right;
+    height: 500px;
+    width: 55%;
+    background-image: url(./YALL.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.write{
+    float: left;
+    height: 500px;
+    width: 45%;
+    background-image: url(./gg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-right: 90px;
+    padding-left: 30px;
+}
+.write h1{
+    font-size: 60px;
+    font-family: Raleway;
+    color: bisque;
+    padding-left: 10px;
+
+}
+.write p{
+    font-size: 20px;
+    font-family: Raleway;
+    color: bisque;
+    word-spacing: 5px;
+    margin: 20px;
+}
+.write a{
+    color: aliceblue;
+}
+.description1{
+    float: left;
+    height: 500px;
+    width: 55%;
+    background-image: url(./tat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.write1{
+    float: right;
+    height: 500px;
+    width: 45%;
+    background-image: url(./gg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-right: 90px;
+    padding-left: 30px;
+}
+.write1 h1{
+    font-size: 60px;
+    font-family: Raleway;
+    color: bisque;
+    padding-left: 10px;
+
+}
+.write1 p{
+    font-size: 20px;
+    font-family: Raleway;
+    color: bisque;
+    word-spacing: 5px;
+    margin: 20px;
+}
+.write1 a{
+    color: aliceblue;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #eef8ff;
+}
+footer{
+    width: 100%;
+    position: unset;
+   
+    bottom: 0;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    color: #fff;
+    padding: 100px 0 30px;
+    border-top-left-radius: 125px;
+    font-size: 13px;
+    line-height: 20px;
+
+}
+.row{
+   width: 85%;
+   margin: auto;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: flex-start;
+   justify-content: space-between;
+   
+}
+.col{
+    flex-basis: 25%;
+    padding: 10px;
+}
+.logo{
+    width: 80px;
+    margin-bottom: 30px;
+
+}
+.col h3{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+.email-id{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+.li1 li{
+    list-style: none;
+    margin-bottom: 12px;
+
+}
+.li1 li a{
+    text-decoration: none;
+    color: #fff;
+
+}
+form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+form .far{
+    font-size: 18px;
+    margin-right: 10px;
+}
+form input{
+    width: 100%;
+    background: transparent;
+    color: #ccc;
+    border: 0;
+    outline: none;
+}
+
+
+
+    
+

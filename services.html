@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Luxe </title>
+    <link rel="stylesheet" href="services.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://kit.fontawesome.com/3010b1eaf1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <!-- header  -->
+    <header>
+        <!-- menu responsive -->
+        
+        <div class="menu_toggle">
+            <span></span>
+        </div>
+
+        <div class="logo">
+            <p><span></span>Porsche</p>
+        </div>
+        <ul class="menu">
+            <li><a href="./contact us.html">contactez-nous</a></lu>
+                <li><a href="./Pieces auto.html"> Piéces auto </a></li>
+                <li><a href="./huile moteur.html"> Huile moteur</a></li>
+                <li><a href="./pneus.html"> Pneus </a></li>
+                <li><a href="./accessoires.html"> Accessoires</a></li>
+                <li><a href="#">service</a></li>
+             </ul>
+        <button class="login_btn">LOGIN</button>
+    </header>
+    <!-- section Acceuil -->
+     
+    <section id="home">
+        <div class="left">
+            <h1>Buy <span>Your Car</span> Cheaper From Us</h1>
+            <p>Dr. Ing. hc F. Porsche AG, généralement abrégé en Porsche, est un constructeur d'automobiles de sport allemand. La société fut fondée en 1931 par Ferdinand Porsche, puis reprise par son fils Ferry Porsche. Ferdinand Porsche est l'ingénieur qui créa la première Volkswagen.</p>
+            <a href="#">BUY NOW</a>
+        </div>
+        <div class="right">
+            <img src="porsche1.png">
+        </div>
+    </section>
+
+
+
+
+    <!-- section vehicule -->
+
+    <section id="cars">
+        <h1 class="section_title">Nos vehicules</h1>
+        <div class="images">
+            <ul>
+                <li class="car">
+                   <div>
+                       <img src="PORSCHE3.png" alt="">
+                   </div>
+                   <span>718 Cayman GT4</span>
+                   <span class="prix">558.000DT</span>
+                   <a href="#">ACHETER MAINTENANT</a>
+                </li>
+                <li class="car">
+                    <div>
+                        <img src="PORSCHE2.webp" alt="">
+                    </div>
+                    <span>911 Carrera</span>
+                    <span class="prix">400.000DT</span>
+                    <a href="#">ACHETER MAINTENANT</a>
+                 </li>
+                 <li class="car">
+                    <div>
+                        <img src="PORSCHE4.webp" alt="">
+                    </div>
+                    <span>911 Turbo</span>
+                    <span class="prix">500.000DT</span>
+                    <a href="#">ACHETER MAINTENANT</a>
+                 </li>
+                 <li class="car">
+                    <div>
+                        <img src="PORSCHE5.webp" alt="">
+                    </div>
+                    <span>911 Turbo S</span>
+                    <span class="prix">670.000DT</span>
+                    <a href="#">ACHETER MAINTENANT</a>
+                 </li>
+                 <li class="car">
+                    <div>
+                        <img src="PORSCHE6.webp" alt="">
+                    </div>
+                    <span>Taycan Turbo</span>
+                    <span class="prix">530.000DT</span>
+                    <a href="#">ACHETER MAINTENANT</a>
+                 </li>
+                 <li class="car">
+                    <div>
+                        <img src="PO.webp" alt="">
+                    </div>
+                    <span>718 Boxster GTS 4.0</span>
+                    <span class="prix">700.000DT</span>
+                    <a href="#">ACHETER MAINTENANT</a>
+                 </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- section services -->
+
+    <section id="services">
+        <h1 class="section_title">Nos Services</h1>
+        <div class="list_services">
+            <div class="service">
+                <i class="fa fa-tag"></i>
+                <h3>Des Promotions</h3>
+                <p>Offres spéciales</p>
+                 <a href="#" class="read_more">Lire Plus</a>
+            </div>
+            <div class="service">
+                <i class="fa fa-car"></i>
+                <h3>Livraison Gratuite</h3>
+                <p>À partir de 100dt
+                    *Sauf articles en promotion</p>
+                 <a href="#" class="read_more">Lire Plus</a>
+            </div>
+            <div class="service">
+                <i class="fa fa-shield"></i>
+                <h3>100% Sécurité</h3>
+                <p>Paiement en ligne
+                    *Bientôt disponible</p>
+                 <a href="#" class="read_more">Lire Plus</a>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- section contact -->
+
+   
+ 
+
+    <footer>
+        <p>Mohamed Idriss Friaa </p>
+    </footer>
+
+    <script>
+        //menu responsive code JS
+
+        var menu_toggle = document.querySelector('.menu_toggle');
+        var menu = document.querySelector('.menu');
+        var menu_toggle_span = document.querySelector('.menu_toggle span');
+
+        menu_toggle.onclick = function(){
+            menu_toggle.classList.toggle('active');
+            menu_toggle_span.classList.toggle('active');
+            menu.classList.toggle('responsive') ;
+        }
+
+    </script>
+</body>
+</html>
